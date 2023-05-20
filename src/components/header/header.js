@@ -1,8 +1,13 @@
 import React from 'react'
+import SearchIcon from '@mui/icons-material/Search';
+import NavScrollExample from './NavBar/NavBar.js';
+import "./Header.css"
 
 const header = () => {
   return (
-    <div>header</div>
+    <div className="header">
+        <NavScrollExample />
+    </div>
   )
 }
 
