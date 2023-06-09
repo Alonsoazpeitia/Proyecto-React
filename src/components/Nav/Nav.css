@@ -1,0 +1,25 @@
+.Navigation{
+    width: 100%;
+    margin: auto;
+    height: 30px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: black;
+    background-color: #f0eded;
+    left: 0;
+    top: 80px;
+    position: sticky;
+    z-index: 2;
+
+}
+.List-ul{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.List-ul a{
+    text-decoration: none;
+    color: #000;
+}
